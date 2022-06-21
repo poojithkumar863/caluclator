@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+      <div class="row1 row" id="hi">
+          <h1 id="row1"text-size='40px'>Name</h1>
+      </div>  
+      <div class="row2 row">
+          <input type="text" class="textbox" placeholder="Enter number 1" id="data1" size="50px"> <input type="text" class="textbox" id="data2" placeholder="Enter number 2"size="50px">
+      </div>
+      <div class="row3 row">
+         
+              <button class="btn" onclick="addition()">Add</button>
+              <button class="btn" onclick="subtraction()">subtract</button>
+              <button class="btn" onclick="division()">division</button>
+              <button class="btn" onclick="multiplication()">multiply</button>
+              <button class="btn" onclick="floordivision()">floor division</button>
+              <button class="btn" onclick="factorial()">factorial</button>
+              <button class="btn" id="merge" onclick="msort()">Merge Sort</button>
+              <button class="btn" id="bubble" onclick="bsort()">Bubble Sort</button>
+         
+      </div>
+      <div class="row">
+            <h1 id="result">Answer</h1>
+      </div>
+      <div class="row4 row">
+          <a href="#" class="btn" onclick="set_roll_number()">Set Name</a>
+      </div>
+    </div>
+
+    <script src="../js/Calc.js"></script>
+</body>
+</html>
